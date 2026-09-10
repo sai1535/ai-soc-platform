@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+
+data/security_events.json
+data/test_security_events.json
+
+reports/*.json
+
+.env
+*.log
+
+.streamlit/secrets.toml
