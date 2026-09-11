@@ -1,0 +1,22 @@
+{
+    "Authentication Attack": {
+        "technique_id": "T1110",
+        "technique_name": "Brute Force",
+        "tactic": "Credential Access"
+    },
+    "Possible Account Compromise": {
+        "technique_id": "T1110",
+        "technique_name": "Brute Force",
+        "tactic": "Credential Access"
+    },
+    "Possible Account Compromise with Process Execution": {
+        "technique_id": "T1059.001",
+        "technique_name": "PowerShell",
+        "tactic": "Execution"
+    },
+    "Possible Account Compromise with Execution and Persistence": {
+        "technique_id": "T1543.003",
+        "technique_name": "Windows Service",
+        "tactic": "Persistence"
+    }
+}

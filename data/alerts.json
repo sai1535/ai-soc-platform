@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "alert_id": "CORR-20260911142833845242",
+        "threat_type": "Possible Account Compromise with Execution and Persistence",
+        "severity": "CRITICAL",
+        "risk_score": 100,
+        "username": "testuser",
+        "source_ip": "192.168.1.100",
+        "failed_attempts": 10,
+        "attack_chain": [
+            "Authentication Failures",
+            "Successful Authentication",
+            "Process Execution",
+            "Persistence"
+        ],
+        "evidence": [
+            "10 failed login attempts detected",
+            "Successful login detected after failed attempts",
+            "Process creation detected: powershell.exe",
+            "New Windows service detected: TestPersistenceService"
+        ],
+        "status": "OPEN",
+        "detection_engine": "V7",
+        "recommended_action": "Investigate authentication activity, process execution and persistence indicators."
+    }
+]
